@@ -8,4 +8,4 @@ for k in range(s+1,e):
             if k%i==0:
                 j=j+1
     if j<=0:
-       print k
+       print k,
