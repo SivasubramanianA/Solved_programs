@@ -1,9 +1,9 @@
-s1,s2=raw_input().split()
-if s1==s2:
-    print s1
+string1,string2=raw_input().split()
+if string1==string2:
+    print string1
 else:
-     if s1>s2:
-        print s1
+     if string1>string2:
+        print string1
      else:
-        print s2
+        print string2
     
