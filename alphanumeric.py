@@ -1,5 +1,5 @@
-n=raw_input()
-if n.isalnum():
+string=raw_input()
+if string.isalnum():
     print "Yes"
 else:
     print "No"
