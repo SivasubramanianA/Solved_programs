@@ -1,16 +1,13 @@
 string=raw_input()
+count=0
 alphabet="abcdefghijklmnopqrstuvwxyz"
 string=string.lower()
-temp=""
-for i in string:
-    if(i in alphabet):
-        temp+=i
 for i in alphabet:
-    if(i not in temp):
+    if(i not in string):
         count=0
     else:
-        count=+1
-if(count<=0):
-    print "no"
-else:
+        count+=1
+if(count==26):
     print "yes"
+else:
+    print "no"
